@@ -18,7 +18,7 @@ local servers = {
     "marksman",
     "gopls",
     'awk_ls',
-  
+	"jdtls",
 }
 
 local settings = {
