@@ -61,6 +61,7 @@ local plugins = {
 	"saadparwaiz1/cmp_luasnip", -- snippet completions
 	"hrsh7th/cmp-nvim-lsp",
 	"hrsh7th/cmp-nvim-lua",
+	{ "akinsho/toggleterm.nvim", version = "*", config = true },
 
 	-- snippets
 	"L3MON4D3/LuaSnip", --snippet engine
@@ -71,6 +72,11 @@ local plugins = {
 	"williamboman/mason.nvim", -- simple to use language server installer
 	"williamboman/mason-lspconfig.nvim", -- simple to use language server installer
 	"jose-elias-alvarez/null-ls.nvim", -- LSP diagnostics, code actions, handle formatters and linters
+	-- "folke/neodev.nvim",
+
+	-- DAP
+	"mfussenegger/nvim-dap",
+	"rcarriga/nvim-dap-ui",
 
 	-- code highlights
 	"nvim-treesitter/nvim-treesitter",
